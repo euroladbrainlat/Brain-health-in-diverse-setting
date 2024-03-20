@@ -21,7 +21,7 @@ The metric group databases used in the study (Power spectrum metrics, Aperiodic 
 - main_results/Data/frequency_total_sample.xlsx
 - main_results/Data/connectivity_cognition.xlsx
 - main_results/Data/connectivity_total_sample.xlsx
-
+---
 - supp_results/Data/aperiodic_cognition.xlsx
 - supp_results/Data/aperiodic_total_sample.xlsx
 - supp_results/Data/complexity_cognition.xlsx
