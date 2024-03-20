@@ -9,12 +9,13 @@
 - [Summary](#Summary)
 - [Folder hierarchy](#Folderhierarchy)
 - [Databases](#Databases)
-- [Metrics Description](#MetricsDescription)
-  - [Power spectrum metrics](#Powerspectrummetrics)
-  - [License](#license)
-  - [License](#license)
-  - [License](#license)
-- [License](#license)
+- [General description](#Generaldescription)
+  - [Metrics Description](#MetricsDescription)
+      - [Power spectrum metrics](#Powerspectrummetrics)
+      - [Aperiodic metrics](#Aperiodicmetrics)
+      - [Complexity metrics](#Complexitymetrics)
+      - [Connectivity metrics](#Connectivitymetrics)
+
   
 
 ## Summary
@@ -54,7 +55,8 @@ Below is the folder hierarchy of the repository. It has been divided into main r
 <a name="Databases"></a>
 The metric group databases used in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics) are available in the repository. Below are descriptions of each database:
 
-### General Description:
+### General description:
+<a name="Generaldescription"></a>
 Each database includes subjects' age, sex, and education years. Those databases containing cognition data also provide subjects' Mini-Mental State Examination (MMSE) scores. Databases in the main_result directory encompass all subjects utilized in the study, while those located in the supp_results directory pertain to subjects recorded solely with eyes closed. The databases with the suffix *_cognition* contain cognition data, while the one with the *_total* suffix includes all subjects. Below are the directory and name of each database:
 
 #### Main results:
@@ -103,14 +105,14 @@ Subject-specific frequency bands were determined using the individual alpha freq
 The beta and gamma frequency bands corresponded to the canonical division.
 
 #### Aperiodic metrics:
-
+<a name="Aperiodicmetrics"></a>
 Aperiodic components of the EEG power spectral density (PSD) were computed using the FOOOF algorithm. The components were: the 1/f slope (a), knee (k), and offset (b).
 
 #### Complexity metrics:
-
+<a name="Complexitymetrics"></a>
 We adopt a complexity definition in which signals with greater complexity display increased irregularity. To quantify this, we utilized fractal dimension estimation (FD), permutation entropy (PE), Wiener entropy (WE), and spectral structure variability (SSV).
 
 #### Connectivity metrics:
-
+<a name="Connectivitymetrics"></a>
 We computed four weighted graph metrics: global efficiency, transitivity, small-worldness, and density. These metrics were derived from weighted matrices obtained using three functional connectivity metrics (mutual information, conditional mutual information, and organizational information).
 
