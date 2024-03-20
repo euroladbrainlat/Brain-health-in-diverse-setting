@@ -14,20 +14,19 @@ This repository contains the codes and databases necessary for the results of th
 - **main_results/**
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
 
-  - **ROIs/** `Databases required for analysis. They are described in more detail in the following section.`
+  - **ROIs/** `.nii files containing masks for each ROI needed to visually identify regions with the most significant effects.`
 
   - **Results/**
-       - **Images/** `Databases required for analysis. They are described in more detail in the following section.`
-    
-  
-       - **Models/**
-         - **Aperiodic/**
+       - **Images/** `Images of the main results obtained.`
+     
+       - **Models/** `Tabulated results from the linear regressions performed in the study. The tables are organized into 4 separate folders, each corresponding to a set of metrics evaluated in the study.`
+           - **Aperiodic/** 
            
-         - **Complexity/**
+           - **Complexity/**
 
-         - **Connectivity/**
+           - **Connectivity/**
 
-         - **Frequency/**
+           - **Frequency/**
 
 
 
