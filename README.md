@@ -8,9 +8,14 @@
 # Table of Contents
 - [Summary](#Summary)
 - [Folder hierarchy](#Folderhierarchy)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Databases](#Databases)
+- [Metrics Description](#MetricsDescription)
+- [Power spectrum metrics](#Powerspectrummetrics)
 - [License](#license)
+- [License](#license)
+- [License](#license)
+- [License](#license)
+  
 
 ## Summary
 <a name="Summary"></a>
@@ -46,6 +51,7 @@ Below is the folder hierarchy of the repository. It has been divided into main r
 
 
 ## Databases
+<a name="Databases"></a>
 The metric group databases used in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics) are available in the repository. Below are descriptions of each database:
 
 ### General Description:
@@ -73,8 +79,9 @@ Each database includes subjects' age, sex, and education years. Those databases 
 
 
 ### Metrics Description:
+<a name="MetricsDescription"></a>
 #### Power spectrum metrics:
-
+<a name="Powerspectrummetrics"></a>
 Power spectrum analyses were conducted in both the canonical EEG frequency bands and subject-specific EEG frequency bands (92). The canonical frequency bands were defined as follows: 
 
 - Delta (𝛿): 1.5-6 Hz
