@@ -57,3 +57,16 @@ Subject-specific frequency bands were determined using the individual alpha freq
 - Alpha high (IAF to IAF+2) (92)
 
 The beta and gamma frequency bands corresponded to the canonical division.
+
+#### Aperiodic metrics:
+
+Aperiodic components of the EEG power spectral density (PSD) were computed using the FOOOF algorithm. The components were: the 1/f slope (a), knee (k), and offset (b).
+
+#### Complexity metrics:
+
+We adopt a complexity definition in which signals with greater complexity display increased irregularity. To quantify this, we utilized fractal dimension estimation (FD), permutation entropy (PE), Wiener entropy (WE), and spectral structure variability (SSV).
+
+#### Connectivity metrics:
+
+We computed four weighted graph metrics: global efficiency, transitivity, small-worldness, and density. These metrics were derived from weighted matrices obtained using three functional connectivity metrics (mutual information, conditional mutual information, and organizational information).
+
