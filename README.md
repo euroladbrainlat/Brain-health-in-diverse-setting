@@ -13,25 +13,22 @@ This repository contains the codes and databases necessary for the results of th
 ## Folder hierarchy
 - **main_results/**
   - **Data/**
-    - `aperiodic_cognition.xlsx`: Base de datos con datos aperiodic para cognición.
-    - `aperiodic_total_sample.xlsx`: Base de datos con datos aperiodic para la muestra total.
-    - `complexity_cognition.xlsx`: Base de datos con datos de complejidad para cognición.
-    - `complexity_total_sample.xlsx`: Base de datos con datos de complejidad para la muestra total.
-    - `frequency_cognition.xlsx`: Base de datos con datos de frecuencia para cognición.
-    - `frequency_total_sample.xlsx`: Base de datos con datos de frecuencia para la muestra total.
-    - `connectivity_cognition.xlsx`: Base de datos con datos de conectividad para cognición.
-    - `connectivity_total_sample.xlsx`: Base de datos con datos de conectividad para la muestra total.
+      -`Databases`: 
+  - **ROIs/**
+      -`.nii files`:  
+  - **Results/**
+       - **Images/**
+                 -`.nii files`: 
+       - **Models/**
+         - **Aperiodic/**
+                -`.nii files`: 
+         - **Complexity/**
+                -`.nii files`: 
+         - **Connectivity/**
+                -`.nii files`: 
+         - **Frequency/**
+                -`.nii files`: 
 
-- **supp_results/**
-  - **Data/**
-    - `aperiodic_cognition.xlsx`: Base de datos suplementaria con datos aperiodic para cognición.
-    - `aperiodic_total_sample.xlsx`: Base de datos suplementaria con datos aperiodic para la muestra total.
-    - `complexity_cognition.xlsx`: Base de datos suplementaria con datos de complejidad para cognición.
-    - `complexity_total_sample.xlsx`: Base de datos suplementaria con datos de complejidad para la muestra total.
-    - `frequency_cognition.xlsx`: Base de datos suplementaria con datos de frecuencia para cognición.
-    - `frequency_total_sample.xlsx`: Base de datos suplementaria con datos de frecuencia para la muestra total.
-    - `connectivity_cognition.xlsx`: Base de datos suplementaria con datos de conectividad para cognición.
-    - `connectivity_total_sample.xlsx`: Base de datos suplementaria con datos de conectividad para la muestra total.
 
 ## Databases
 The metric group databases used in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics) are available in the repository. Below are descriptions of each database:
