@@ -1,4 +1,4 @@
-<p align="right">
+<p align="center">
   <img src="images/header.png" width="400" alt="Cabecera">
 </p>
 
