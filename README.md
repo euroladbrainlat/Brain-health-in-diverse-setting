@@ -6,17 +6,18 @@
 # <p align="center">Brain health in diverse setting: How age, demographics and cognition shape brain function</p>
 
 # Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
+- [Summary](#Summary)
+- [Folder hierarchy](#Folderhierarchy)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Summary
-
+<a name="Summary"></a>
 This repository contains the codes and databases necessary for the results of the study: "Brain health in diverse settings: How age, demographics, and cognition shape brain function". Below are descriptions of the databases and scripts provided.
 
 ## Folder hierarchy
+<a name="Folderhierarchy"></a>
 Below is the folder hierarchy of the repository. It has been divided into main results (main_results) and supplementary results (supp_results). The supplementary results involve replicating the main results using only subjects who had their eyes closed during the entire recording.
 
 - **main_results/**
