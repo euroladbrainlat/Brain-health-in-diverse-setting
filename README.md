@@ -13,6 +13,7 @@ This repository contains the codes and databases necessary for the results of th
 ## Databases
 The metric group databases used in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics) are available in the repository. Below are descriptions of each database:
 
+### Main results:
 - main_results/Data/aperiodic_cognition.xlsx
 - main_results/Data/aperiodic_total_sample.xlsx
 - main_results/Data/complexity_cognition.xlsx
@@ -22,6 +23,7 @@ The metric group databases used in the study (Power spectrum metrics, Aperiodic 
 - main_results/Data/connectivity_cognition.xlsx
 - main_results/Data/connectivity_total_sample.xlsx
 ---
+### Supplementary results:
 - supp_results/Data/aperiodic_cognition.xlsx
 - supp_results/Data/aperiodic_total_sample.xlsx
 - supp_results/Data/complexity_cognition.xlsx
