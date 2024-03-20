@@ -23,7 +23,7 @@ Below is the folder hierarchy of the repository. It has been divided into main r
      
        - **Models/** `Tabulated results from the linear regressions performed in the study. The tables are organized into 4 separate folders, each corresponding to a set of metrics evaluated in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics).`
 
--`Regression_aperiodic_metrics_final_code.ipynb`: 
+    -`Regression_aperiodic_metrics_final_code.ipynb`: 
 
 - **supp_results/**
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
