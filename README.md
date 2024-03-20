@@ -24,8 +24,7 @@ This repository contains the codes and databases necessary for the results of th
                  -`.nii files`: 
        - **Models/**
          - **Aperiodic/**
-           
-                -`.nii files`: 
+                -`.nii files`: Databases required for analysis. They are described in more detail in the following section.
          - **Complexity/**
            
                 -`.nii files`: 
