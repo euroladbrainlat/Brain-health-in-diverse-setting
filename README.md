@@ -43,7 +43,10 @@ Below is the folder hierarchy of the repository. It has been divided into main r
 ## Databases
 The metric group databases used in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics) are available in the repository. Below are descriptions of each database:
 
-### Main results:
+### General Description:
+Each database includes subjects' age, sex, and education years. Those databases containing cognition data also provide subjects' Mini-Mental State Examination (MMSE) scores. Databases in the main_result directory encompass all subjects utilized in the study, while those located in the supp_results directory pertain to subjects recorded solely with eyes closed. The databases with the suffix *_cognition* contain cognition data, while the one with the *_total* suffix includes all subjects.
+
+#### Main results:
 - main_results/Data/aperiodic_cognition.xlsx
 - main_results/Data/aperiodic_total_sample.xlsx
 - main_results/Data/complexity_cognition.xlsx
@@ -53,7 +56,7 @@ The metric group databases used in the study (Power spectrum metrics, Aperiodic 
 - main_results/Data/connectivity_cognition.xlsx
 - main_results/Data/connectivity_total_sample.xlsx
 ---
-### Supplementary results:
+#### Supplementary results:
 - supp_results/Data/aperiodic_cognition.xlsx
 - supp_results/Data/aperiodic_total_sample.xlsx
 - supp_results/Data/complexity_cognition.xlsx
@@ -63,9 +66,8 @@ The metric group databases used in the study (Power spectrum metrics, Aperiodic 
 - supp_results/Data/connectivity_cognition.xlsx
 - supp_results/Data/connectivity_total_sample.xlsx
 
-### General Description:
-Each database includes subjects' age, sex, and education years. Those databases containing cognition data also provide subjects' Mini-Mental State Examination (MMSE) scores. Databases in the main_result directory encompass all subjects utilized in the study, while those located in the supp_results directory pertain to subjects recorded solely with eyes closed. The databases with the suffix *_cognition* contain cognition data, while the one with the *_total* suffix includes all subjects.
 
+### Metrics Description:
 #### Power spectrum metrics:
 
 Power spectrum analyses were conducted in both the canonical EEG frequency bands and subject-specific EEG frequency bands (92). The canonical frequency bands were defined as follows: 
