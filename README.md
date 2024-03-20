@@ -13,8 +13,10 @@ This repository contains the codes and databases necessary for the results of th
 ## Folder hierarchy
 - **main_results/**
   - **Data/**
-      -`Databases`: 
+    
+      -`Databases`: Databases required for analysis. They are described in more detail in the following section.
   - **ROIs/**
+    
       -`.nii files`:  
   - **Results/**
        - **Images/**
@@ -22,12 +24,16 @@ This repository contains the codes and databases necessary for the results of th
                  -`.nii files`: 
        - **Models/**
          - **Aperiodic/**
+           
                 -`.nii files`: 
          - **Complexity/**
+           
                 -`.nii files`: 
          - **Connectivity/**
+           
                 -`.nii files`: 
          - **Frequency/**
+           
                 -`.nii files`: 
 
 
