@@ -35,3 +35,25 @@ The metric group databases used in the study (Power spectrum metrics, Aperiodic 
 
 ### General Description:
 Each database includes subjects' age, sex, and education years. Those databases containing cognition data also provide subjects' Mini-Mental State Examination (MMSE) scores. Databases in the main_result directory encompass all subjects utilized in the study, while those located in the supp_results directory pertain to subjects recorded solely with eyes closed. The databases with the suffix *_cognition* contain cognition data, while the one with the *_total* suffix includes all subjects.
+
+#### Power spectrum metrics:
+
+Power spectrum analyses were conducted in both the canonical EEG frequency bands and subject-specific EEG frequency bands (92). The canonical frequency bands were defined as follows: 
+
+- Delta (𝛿): 1.5-6 Hz
+- Theta (𝛳): 6.5-8.0 Hz
+- Alpha1 (𝛼1): 8.5-10 Hz
+- Alpha2 (𝛼2): 10.5-12.0 Hz
+- Beta1 (𝛽1): 12.5-18.0 Hz
+- Beta2 (𝛽2): 18.5-21.0 Hz
+- Beta3 (𝛽3): 21.5-30.0 Hz
+- Gamma (𝛾): 30.0-40.0 Hz
+
+Subject-specific frequency bands were determined using the individual alpha frequency peak (IAF), defined as the frequency with maximum power in the alpha-frequency band, and the theta/alpha-frequency transition (TF), defined as the frequency with minimum power in the second half of the theta frequency range. The subject-specific frequency bands are defined as follows: 
+
+- Delta (TF-4 to TF-2)
+- Theta (TF-2 to TF)
+- Alpha low (TF to IAF)
+- Alpha high (IAF to IAF+2) (92)
+
+The beta and gamma frequency bands corresponded to the canonical division.
