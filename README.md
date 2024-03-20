@@ -14,16 +14,14 @@ This repository contains the codes and databases necessary for the results of th
 Below is the folder hierarchy of the repository. It has been divided into main results (main_results) and supplementary results (supp_results). The supplementary results involve replicating the main results using only subjects who had their eyes closed during the entire recording.
 
 - **main_results/**
+  - **Regression_aperiodic_metrics_final_code.ipynb/** `` 
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
-
   - **ROIs/** `.nii files containing masks for each ROI needed to visually identify regions with the most significant effects.`
-
   - **Results/**
        - **Images/** `Images of the main results obtained.`
-     
        - **Models/** `Tabulated results from the linear regressions performed in the study. The tables are organized into 4 separate folders, each corresponding to a set of metrics evaluated in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics).`
 
-    -`Regression_aperiodic_metrics_final_code.ipynb`: 
+
 
 - **supp_results/**
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
