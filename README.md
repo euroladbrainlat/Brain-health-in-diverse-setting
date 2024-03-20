@@ -11,6 +11,8 @@
 This repository contains the codes and databases necessary for the results of the study: "Brain health in diverse settings: How age, demographics, and cognition shape brain function". Below are descriptions of the databases and scripts provided.
 
 ## Folder hierarchy
+Below is the folder hierarchy of the repository. It has been divided into main results (main_results) and supplementary results (supp_results). The supplementary results involve replicating the main results using only subjects who had their eyes closed during the entire recording.
+
 - **main_results/**
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
 
@@ -19,15 +21,19 @@ This repository contains the codes and databases necessary for the results of th
   - **Results/**
        - **Images/** `Images of the main results obtained.`
      
-       - **Models/** `Tabulated results from the linear regressions performed in the study. The tables are organized into 4 separate folders, each corresponding to a set of metrics evaluated in the study.`
-           - **Aperiodic/** 
-           
-           - **Complexity/**
+       - **Models/** `Tabulated results from the linear regressions performed in the study. The tables are organized into 4 separate folders, each corresponding to a set of metrics evaluated in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics).`
 
-           - **Connectivity/**
+-`Regression_aperiodic_metrics_final_code.ipynb`: 
 
-           - **Frequency/**
+- **supp_results/**
+  - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
 
+  - **ROIs/** `.nii files containing masks for each ROI needed to visually identify regions with the most significant effects.`
+
+  - **Results/**
+       - **Images/** `Images of the supplementary results obtained.`
+     
+       - **Models/** `Tabulated results from the linear regressions performed in the study. The tables are organized into 4 separate folders, each corresponding to a set of metrics evaluated in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics).`
 
 
 ## Databases
