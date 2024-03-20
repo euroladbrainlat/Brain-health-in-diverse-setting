@@ -10,10 +10,10 @@
 - [Folder hierarchy](#Folderhierarchy)
 - [Databases](#Databases)
 - [Metrics Description](#MetricsDescription)
-- [Power spectrum metrics](#Powerspectrummetrics)
-- [License](#license)
-- [License](#license)
-- [License](#license)
+  - [Power spectrum metrics](#Powerspectrummetrics)
+  - [License](#license)
+  - [License](#license)
+  - [License](#license)
 - [License](#license)
   
 
