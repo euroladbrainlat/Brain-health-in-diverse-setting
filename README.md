@@ -14,17 +14,18 @@ This repository contains the codes and databases necessary for the results of th
 - **main_results/**
   - **Data/**
     
-      -`Databases`: Databases required for analysis. They are described in more detail in the following section.
+      - Databases required for analysis. They are described in more detail in the following section.
   - **ROIs/**
     
       -`.nii files`:  
   - **Results/**
        - **Images/**
-         
-                 -`.nii files`: 
+    
+                 - 
        - **Models/**
          - **Aperiodic/**
-                -`.nii files`: Databases required for analysis. They are described in more detail in the following section.
+           
+                -Databases required for analysis. They are described in more detail in the following section.
          - **Complexity/**
            
                 -`.nii files`: 
