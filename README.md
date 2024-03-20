@@ -18,21 +18,21 @@ Below is the folder hierarchy of the repository. It has been divided into main r
   - **Regression_complexity_metrics_final_code.ipynb** `Script for the analysis of complexity metrics.`
   - **Regression_connectivity_metrics_final_code.ipynb** `Script for the analysis of connectivity metrics.`
   - **Regression_frequency_metrics_final_code.ipynb** `Script for the analysis of power spectrum metrics.`
-  - --
+___
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
   - **ROIs/** `.nii files containing masks for each ROI needed to visually identify regions with the most significant effects.`
   - **Results/**
        - **Images/** `Images of the main results obtained.`
        - **Models/** `Tabulated results from the linear regressions performed in the study. The tables are organized into 4 separate folders, each corresponding to a set of metrics evaluated in the study (Power spectrum metrics, Aperiodic metrics, Complexity metrics, and Connectivity metrics).`
 
-
+---
 
 - **supp_results/**
   - **Regression_aperiodic_metrics_final_code_supp.ipynb** `Script for the analysis of aperiodic metrics.`
   - **Regression_complexity_metrics_final_code_supp.ipynb** `Script for the analysis of complexity metrics.`
   - **Regression_connectivity_metrics_final_code_supp.ipynb** `Script for the analysis of connectivity metrics.`
   - **Regression_frequency_metrics_final_code_supp.ipynb** `Script for the analysis of power spectrum metrics.`
-  - --
+___
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
   - **ROIs/** `.nii files containing masks for each ROI needed to visually identify regions with the most significant effects.`
   - **Results/**
