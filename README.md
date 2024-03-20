@@ -14,7 +14,7 @@ This repository contains the codes and databases necessary for the results of th
 Below is the folder hierarchy of the repository. It has been divided into main results (main_results) and supplementary results (supp_results). The supplementary results involve replicating the main results using only subjects who had their eyes closed during the entire recording.
 
 - **main_results/**
-  - **Regression_aperiodic_metrics_final_code.ipynb/** `` 
+  - **Regression_aperiodic_metrics_final_code.ipynb** `Script for the analysis of aperiodic metrics.` 
   - **Data/** `Databases required for analysis. They are described in more detail in the following section.`
   - **ROIs/** `.nii files containing masks for each ROI needed to visually identify regions with the most significant effects.`
   - **Results/**
