@@ -5,6 +5,12 @@
 
 # <p align="center">Brain health in diverse setting: How age, demographics and cognition shape brain function</p>
 
+# Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Summary
 
